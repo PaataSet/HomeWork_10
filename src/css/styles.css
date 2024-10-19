@@ -28,6 +28,7 @@ img {
 }
 
 footer {
+  background-color: #0a22f4;
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
@@ -42,17 +43,17 @@ h1 {
 .PS-section {
   display: grid;
   padding: 10px;
+  padding-top: 275px;
+  /* background-color: #0a22f4; */
   min-height: 400px;
-  background-color: #0a22f4;
+
   gap: 10px;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .PS-sec1 {
   max-width: auto;
-  min-height: 100px;
-  border: 1px solid black;
-  /*background-color: aquamarine; */
+  /* border: 1px solid black; */
   padding: 10px;
 }
 
@@ -160,4 +161,57 @@ p {
 
 .PS-SW-logo {
   margin-left: 30px;
+}
+
+.PS-input {
+  max-width: 463px;
+  min-height: 60px;
+  margin: 20 auto;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.PS-PLH {
+  padding: 5px 0;
+  margin: 5px 0 20px 0;
+  background-color: #0a22f4;
+  border-top: #0a22f4;
+  border-right: #0a22f4;
+  border-left: #0a22f4;
+  opacity: 0.3;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+}
+
+.PS-PLH-M {
+  max-width: 463px;
+  height: 120px;
+  padding: 5px 0;
+  margin: 5px 0 20px 0;
+  background-color: #0a22f4;
+  border-top: #0a22f4;
+  border-right: #0a22f4;
+  border-left: #0a22f4;
+  opacity: 0.3;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+}
+
+.PS-button {
+  max-width: 463px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+button {
+  width: 151px;
+  height: 55px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-weight: bold;
+  font-size: 16px;
 }
