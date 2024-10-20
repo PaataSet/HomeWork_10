@@ -36,6 +36,12 @@
     />
     <!-- END -->
 
+    <!-- GOOGLE -->
+    <meta name="robots" content="max-image-preview:standard" />
+    <meta name="googlebot" content="notranslate" />
+    <meta name="google" content="nopagereadaloud" />
+    <!-- END -->
+
     <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
   </head>
   <body>
@@ -87,35 +93,23 @@
                 type="text"
                 id="user-name"
                 name="user-name"
-                placeholder="სახელი, გვარი"
                 class="PS-PLH"
               />
               <label for="email">ელ. ფოსტა</label>
               <input
-                type="text"
+                type="email"
                 id="email"
                 name="email"
-                placeholder="ელ. ფოსტა"
+                required
                 class="PS-PLH"
               />
               <label for="phone">ტელეფონის ნომერი</label>
-              <input
-                type="text"
-                id="phone"
-                name="phone"
-                placeholder="ტელეფონის ნომერი"
-                class="PS-PLH"
-              />
+              <input type="text" id="phone" name="phone" class="PS-PLH" />
               <label for="message">შეტყობინება</label>
-              <input
-                type="text"
-                id="message"
-                name="message"
-                placeholder="შეტყობინება"
-                class="PS-PLH-M"
-              />
+              <textarea name="message" id="message" cols="20" rows="10">
+              </textarea>
               <div class="PS-button">
-                <button>გაგზავნა</button>
+                <button type="submit">გაგზავნა</button>
               </div>
             </form>
           </div>
